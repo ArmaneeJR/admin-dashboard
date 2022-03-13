@@ -667,9 +667,11 @@ main .date input[type="date"] {
     color: var(--color-dark);
 }
 
-main .date input[placeholder ="Set Date"] {
+main .date input[placeholder ="dd/mm/yyyy"] {
     background: transparent;
     color: var(--color-dark);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
 }
 
 main .recent-order table {
