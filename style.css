@@ -669,6 +669,10 @@ main .recent-order {
     width: 100%;
 }
 
+main .recent-order thead tr {
+    display: none;
+}
+
 main .recent-order tbody {
     font-size: 10px;
 }
