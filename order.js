@@ -40,5 +40,12 @@ const Orders = [
         paymentStatus: 'Paid',
         shipping: 'Delivered',
     },
+
+    {
+        productName: 'Balenciaga Unisex - Black',
+        productNumber: '87567',
+        paymentStatus: 'Refunded',
+        shipping: 'Declined',
+    },
     
 ]

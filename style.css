@@ -597,7 +597,7 @@ main a {
 
 @media screen and (max-width: 768px) {
      .container {
-        width: 90%;
+        width: 100%;
         grid-template-columns: 1fr;
      }
 
@@ -621,7 +621,7 @@ main a {
      }
 
     aside .logo {
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
 
     aside .logo h2 {
