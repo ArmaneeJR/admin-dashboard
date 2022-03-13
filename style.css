@@ -260,13 +260,6 @@ main .date input[type="date"] {
     color: var(--color-dark);
 }
 
-main .date input[placeholder ="dd/mm/yyyy"] {
-    background: transparent;
-    color: var(--color-dark);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
-}
-
 main .insights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -557,8 +550,9 @@ main a {
 
 @media screen and (max-width: 1200px) {
     .container{
-        width: 94%;
+        width: 80%;
         grid-template-columns: 7rem auto 23rem;
+        
     }
 
     aside .logo h2 {
@@ -665,10 +659,13 @@ main {
 
 main .recent-order {
     position: relative;
-    margin: 3rem 0 0 0;
+    margin: 2rem 0 0 0;
     width: 100%;
 }
 
+main .recent-order tbody {
+    font-size: 10px;
+}
 main .date input[type="date"] {
     background: transparent;
     color: var(--color-dark);
@@ -678,7 +675,7 @@ main .date input[placeholder ="dd/mm/yyyy"] {
     background: transparent;
     color: var(--color-dark);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+    font-weight: 1000;
 }
 
 main .recent-order table {
