@@ -259,6 +259,12 @@ main .date input[type="date"] {
     background: transparent;
     color: var(--color-dark);
 }
+main .date input[placeholder ="dd/mm/yyyy"] {
+    background: transparent;
+    color: var(--color-dark);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+}
 
 main .insights {
     display: grid;
